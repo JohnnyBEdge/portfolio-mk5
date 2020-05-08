@@ -9,7 +9,7 @@ const Display = () =>{
         <div id="main_container">
             <Nav />
             <About />
-            <Projects />
+            {/* <Projects /> */}
         </div>
     );
 
