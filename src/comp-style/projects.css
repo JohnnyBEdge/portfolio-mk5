@@ -4,6 +4,7 @@
 .project {
     display: flex;
     justify-content: space-evenly;
+    margin: 20px;
 }
 
 .proj {
@@ -16,8 +17,8 @@
 }
 
 .img-frame {
-    width: 450px;
-    background-color: var(--beige);
+    width: 440px;
+    background-color: var(--olive);
     border-radius: 5px;
 }
 
@@ -25,7 +26,7 @@
     border: solid black 1px;
     width: 400px;
     position: relative;
-    top: 40px;
+    top: 20px;
     left: 20px;
     box-shadow: 3px 5px 30px rgba(0,0,0,0.3);
     border-radius: 3px;
@@ -65,4 +66,11 @@
     border-radius: 20px;
     background-color: var(--green);
     color: var(--khaki);
+}
+
+.seperator {
+    width: 85%;
+    border-bottom: 1px solid var(--brown);
+    margin: 0 auto;
+    padding: 5px;
 }

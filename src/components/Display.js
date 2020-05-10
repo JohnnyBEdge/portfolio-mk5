@@ -7,9 +7,9 @@ import Nav from './Nav';
 const Display = () =>{
     return (
         <div id="main_container">
-            <Nav />
-            <About />
-            {/* <Projects /> */}
+            {/* <Nav /> */}
+            {/* <About /> */}
+            <Projects />
         </div>
     );
 
