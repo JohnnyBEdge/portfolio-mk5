@@ -8,8 +8,8 @@ const Display = () =>{
     return (
         <div id="main_container">
             {/* <Nav /> */}
-            {/* <About /> */}
-            <Projects />
+            <About />
+            {/* <Projects /> */}
         </div>
     );
 

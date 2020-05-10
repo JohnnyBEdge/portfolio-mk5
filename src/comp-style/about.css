@@ -2,17 +2,19 @@
     background-image: url('./imgs/vietnam.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
     max-width: 100%;
 }
 
 #sum_container {
     position: relative;
-    top:20%;
+    top:60%;
+    align-self: center;
 }
 
 h1 {
@@ -25,6 +27,35 @@ h1 {
     color: var(--beige);
 }
 
+h1, p {
+    animation: fadeIn ease 8s;
+-webkit-animation: fadeIn ease 8s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
 
 
 

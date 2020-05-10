@@ -1,17 +1,21 @@
 import React from 'react';
 import '../comp-style/about.css';
 import profile from '../comp-style/imgs/profile-pic.jpg'
-
+import Nav from './Nav';
 
 const About = () =>{
     return (
+        <>
+            
             <div id="about_me" className="section">
+            <Nav />
                 <div id="sum_container">
                     <h1>Full-Stack Javascript Developer</h1>
                     <p id="summary">My name is John and I am a web developer based out of Salt Lake City, Utah. </p>
                 </div>
                 
             </div>
+        </>
     );
 
 }
