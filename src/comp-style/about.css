@@ -21,41 +21,41 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     color: var(--beige);
-}
+};
 
 #sum_container p {
     color: var(--beige);
-}
+};
 
 h1, p {
     animation: fadeIn ease 8s;
 -webkit-animation: fadeIn ease 8s;
-}
+};
 
 @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
-    }
+    };
     
 @-moz-keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
-    }
+    };
     
 @-webkit-keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
-    }
+    };
     
 @-o-keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
-    }
+    };
     
 @-ms-keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
-    }
+    };
 
 
 

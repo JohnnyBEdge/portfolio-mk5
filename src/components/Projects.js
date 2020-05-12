@@ -1,12 +1,14 @@
 import React from 'react';
 import '../comp-style/projects.css';
 import LearnCenter from '../comp-style/imgs/learn-center.png';
+import Wedding from '../comp-style/imgs/wedding.png';
 
 const Projects = () => {
 
     return (
         <>
             <div id="projects_container" className="section">
+                <h2>Projects</h2>
                 <div id="project_1" className="project">
                     <div className="proj proj-img">
                         <div className="img-frame">
@@ -29,6 +31,7 @@ const Projects = () => {
                         <button className="view-btn">View Project</button>
                     </div>
                 </div>
+                
 <div className="seperator"></div> 
                 <div id="project_2" className="project">
                     <div className="proj proj-info">
@@ -47,8 +50,29 @@ const Projects = () => {
                     </div>
                     <div className="proj proj-img">
                         <div className="img-frame">
-                            <img src={LearnCenter} alt="Project screenshot"/>
+                            <img alt="Project screenshot"/>
                         </div>
+                    </div>
+                </div>
+
+<div className="seperator"></div> 
+                <div id="project_2" className="project">
+                    <div className="proj proj-img">
+                        <div className="img-frame">
+                            <img src={Wedding} alt="Project screenshot"/>
+                        </div>
+                    </div>
+                    <div className="proj proj-info">
+                        <p className="proj-title">Wedding Website</p>
+                        <p className="proj-desc">The website I created for my wedding that contained all the wedding information, a photo gallery of engagement photos and with the use of Google Forms, a place to RSVP. Besides being a resource for the wedding, this site challenged my creative/artistic side. </p>
+                        <div className="tech-list">
+                        <p className="tech-title">Tech</p>
+                            <ul>
+                                <li>Javascript</li>
+                                <li>HTML/CSS</li>
+                            </ul>
+                        </div>
+                        <button className="view-btn">View Project</button>
                     </div>
                 </div>
 
