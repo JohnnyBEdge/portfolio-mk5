@@ -1,14 +1,12 @@
 import React from 'react';
-import About from './About';
+import Welcome from './Welcome';
 import Projects from './Projects';
-import '../comp-style/display.css'
-import Nav from './Nav';
+import '../comp-style/display.css';
 
 const Display = () =>{
     return (
         <div id="main_container">
-            {/* <Nav /> */}
-            <About />
+            <Welcome />
             <Projects />
         </div>
     );

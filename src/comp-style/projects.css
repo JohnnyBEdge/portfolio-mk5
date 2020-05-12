@@ -25,6 +25,7 @@
 .proj img{
     border: solid black 1px;
     width: 400px;
+    height: 300px;
     position: relative;
     top: 20px;
     left: 20px;
