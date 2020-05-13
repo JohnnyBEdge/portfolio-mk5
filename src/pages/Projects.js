@@ -33,29 +33,31 @@ const Projects = () => {
                 </div>
                 
 <div className="seperator"></div> 
+
                 <div id="project_2" className="project">
                     <div className="proj proj-info">
                         <p className="proj-title">Gear Closet</p>
                         <p className="proj-desc">The gearhead's organizational tool. Create a database for all your gear. Make lists for your trips: 3 day car camping needs vs 1 week backpacking. Build out a list for every occasion and you'll never forget those necessities.</p>
                         <div className="tech-list">
-                        <p className="tech-title">Tech</p>
-                            <ul>
-                                <li>Javascript</li>
-                                <li>React</li>
-                                <li>Express</li>
-                                <li>MongoDB</li>
-                            </ul>
+                            <p className="tech-title">Tech</p>
+                                <ul>
+                                    <li>Javascript</li>
+                                    <li>React</li>
+                                    <li>Express</li>
+                                    <li>MongoDB</li>
+                                </ul>
                         </div>
                         <button className="view-btn">View Project</button>
                     </div>
                     <div className="proj proj-img">
                         <div className="img-frame">
-                            <img alt="Project screenshot"/>
+                            <img src={LearnCenter} alt="Project screenshot"/>
                         </div>
                     </div>
                 </div>
 
-<div className="seperator"></div> 
+<div className="seperator"></div>
+
                 <div id="project_2" className="project">
                     <div className="proj proj-img">
                         <div className="img-frame">
@@ -66,11 +68,11 @@ const Projects = () => {
                         <p className="proj-title">Wedding Website</p>
                         <p className="proj-desc">The website I created for my wedding that contained all the wedding information, a photo gallery and with the use of Google Forms, a place to RSVP. Besides being a resource for the wedding, this site challenged my creative/artistic side. </p>
                         <div className="tech-list">
-                        <p className="tech-title">Tech</p>
-                            <ul>
-                                <li>Javascript</li>
-                                <li>HTML/CSS</li>
-                            </ul>
+                            <p className="tech-title">Tech</p>
+                                <ul>
+                                    <li>Javascript</li>
+                                    <li>HTML/CSS</li>
+                                </ul>
                         </div>
                         <button className="view-btn">View Project</button>
                     </div>

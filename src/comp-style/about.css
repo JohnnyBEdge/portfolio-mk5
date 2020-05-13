@@ -1,0 +1,29 @@
+#profile_container {
+    width: 500px;
+    height: 400px;
+    border: solid black 1px;
+    background-color: var(--beige);
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
+#author {
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+}
+
+img {
+    border-radius: 50%;
+    height: 300px;
+    width: 250px;
+    float: left;
+    shape-outside: circle();
+    margin: 10px 20px 30px 20px;
+}
+
+#profile_summary {
+    margin: 10px;
+    padding: 0;
+    text-align: left;
+}
