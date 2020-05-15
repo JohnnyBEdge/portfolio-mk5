@@ -92,3 +92,8 @@
     margin: 0 auto;
     padding: 5px;
 }
+
+.proj a {
+    text-decoration: none;
+    color: var(--beige);
+}

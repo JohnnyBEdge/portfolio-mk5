@@ -2,6 +2,7 @@ import React from 'react';
 import '../comp-style/projects.css';
 import LearnCenter from '../comp-style/imgs/learn-center.png';
 import Wedding from '../comp-style/imgs/wedding.png';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
 
@@ -30,7 +31,8 @@ const Projects = () => {
                                 <li>Reactstrap</li>
                             </ul>
                         </div>
-                        <button className="view-btn">View Project</button>
+                        <button className="view-btn"><a href={"http://www.google.com"}>View Project</a></button>
+
                     </div>
                 </div>
                 
@@ -50,7 +52,7 @@ const Projects = () => {
                                     <li>MongoDB</li>
                                 </ul>
                         </div>
-                        <button className="view-btn">View Project</button>
+                        <button className="view-btn"><a href={"https://gear-closet-app.herokuapp.com/"}>View Project</a></button>
                     </div>
                     <div className="proj proj-img">
                         <div className="img-frame">
@@ -79,7 +81,7 @@ const Projects = () => {
                                     <li>HTML/CSS</li>
                                 </ul>
                         </div>
-                        <button className="view-btn">View Project</button>
+                        <button className="view-btn"><a href={"https://lefartins.herokuapp.com/"}>View Project</a></button>
                     </div>
                 </div>
 
