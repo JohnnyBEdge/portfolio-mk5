@@ -14,6 +14,7 @@
     position: relative;
     top:60%;
     align-self: center;
+    
 }
 
 h1 {
@@ -29,8 +30,8 @@ h1 {
 
 
 h1, p {
-    animation: fadeIn ease 8s;
-    -webkit-animation: fadeIn ease 8s;
+    animation: fadeIn ease 6s;
+    -webkit-animation: fadeIn ease 6s;
 }
 
 @keyframes fadeIn {
@@ -56,4 +57,4 @@ h1, p {
 @-ms-keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
-    }
+    } 

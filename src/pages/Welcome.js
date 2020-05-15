@@ -2,6 +2,8 @@ import React from 'react';
 import '../comp-style/welcome.css';
 import Nav from './Nav';
 
+
+
 const style = {
     color: "red"
 }
@@ -12,11 +14,10 @@ const Welcome = () =>{
             
             <div id="welcome" className="section">
             <Nav />
-                <div id="sum_container">
+                <div id="sum_container" className="animate__animated animate__fadeIn animate__slow">
                     <h1>Full-Stack Javascript Developer</h1>
                     <p id="summary">My name is John and I am a web developer based out of Salt Lake City, Utah. </p>
                 </div>
-                
             </div>
         </div>
     );

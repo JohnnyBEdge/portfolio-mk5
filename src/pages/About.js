@@ -14,13 +14,14 @@ const About = () => {
             </div>
 
             <div id="tech_container">
+                <h4>My Tech Stack:</h4>
                 <ul>
-                    <li>Tech Item</li>
-                    <li>Tech Item</li>
-                    <li>Tech Item</li>
-                    <li>Tech Item</li>
-                    <li>Tech Item</li>
-                    <li>Tech Item</li>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>ReactJS</li>
+                    <li>NodeJS</li>
+                    <li>Express</li>
+                    <li>MongoDB</li>
                 </ul>
             </div>
         </div>
