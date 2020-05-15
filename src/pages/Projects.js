@@ -8,7 +8,9 @@ const Projects = () => {
     return (
         <>
             <div id="projects_container" className="section">
+<div className="seperator"></div> 
                 <h2>Projects</h2>
+<div className="seperator"></div> 
                 <div id="project_1" className="project">
                     <div className="proj proj-img">
                         <div className="img-frame">
@@ -34,6 +36,7 @@ const Projects = () => {
                 
 <div className="seperator"></div> 
 
+
                 <div id="project_2" className="project">
                     <div className="proj proj-info">
                         <p className="proj-title">Gear Closet</p>
@@ -57,6 +60,8 @@ const Projects = () => {
                 </div>
 
 <div className="seperator"></div>
+
+
 
                 <div id="project_2" className="project">
                     <div className="proj proj-img">

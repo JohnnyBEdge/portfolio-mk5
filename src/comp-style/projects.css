@@ -4,7 +4,14 @@
 .project {
     display: flex;
     justify-content: space-evenly;
-    margin: 40px;
+    margin: 20px;
+}
+
+#projects_container h2{
+    margin: 0 auto;
+    width: 200px;
+    padding: 10px;
+    color: var(--green)
 }
 
 .proj {
@@ -12,14 +19,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 330px;
+    height: auto;
 
 }
 
 .img-frame {
-    width: 440px;
+    width: 420px;
+    height: 320px;
     background-color: var(--olive);
     border-radius: 5px;
+
 }
 
 .proj img{
@@ -28,7 +37,7 @@
     height: 300px;
     position: relative;
     top: 20px;
-    left: 20px;
+    left: 15px;
     box-shadow: 3px 5px 30px rgba(0,0,0,0.3);
     border-radius: 3px;
 }
@@ -40,10 +49,11 @@
 .proj-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
+    color: var(--green)
 }
 
 .proj-desc {
-    width: 400px;
+    width: 500px;
     font-size: 20px;
     font-weight: 100;
 }
@@ -51,6 +61,7 @@
 .tech-title {
     font-size: 20px;
     font-weight: 800;
+    color: var(--green)
 }
 
 .tech-list ul {
