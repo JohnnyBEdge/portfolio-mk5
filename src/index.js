@@ -2,13 +2,25 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './comp-style/index.css';
 import Display from './pages/Display';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Resume from './pages/Resume';
+
 
 
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Display />
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Display} />
+
+        <Route path="/resume" component={Resume} />
+
+      </Switch>
+    </Router> 
+   
+
   </React.StrictMode>,
   document.getElementById('root')
 );

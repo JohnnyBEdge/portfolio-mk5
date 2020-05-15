@@ -6,7 +6,8 @@
     margin: 15px;
 };
 
-#nav_container p {
+#nav_container a {
     font-size: 25px;
     color: var(--brown);
+    text-decoration: none
 };
