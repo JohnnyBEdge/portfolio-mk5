@@ -33,7 +33,8 @@ img {
 #tech_container {
     width: 500px;
     position: relative;
-    left: 43%;
+    display: flex;
+    flex-direction: column;
     bottom:50px;
 }
 
@@ -42,11 +43,18 @@ img {
     flex-direction: column;
     flex-wrap: wrap;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #tech_container li {
     list-style: none;
     margin: 5px;
+}
+
+#resume {
+    font-weight: bold;
+    align-self: center;
 }
 
 h2, h4 {

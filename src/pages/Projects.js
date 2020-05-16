@@ -2,7 +2,7 @@ import React from 'react';
 import '../comp-style/projects.css';
 import LearnCenter from '../comp-style/imgs/learn-center.png';
 import Wedding from '../comp-style/imgs/wedding.png';
-import { Link } from 'react-router-dom';
+
 
 const Projects = () => {
 
