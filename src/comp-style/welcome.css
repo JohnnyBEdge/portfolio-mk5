@@ -17,7 +17,7 @@
     
 }
 
-h1 {
+#welcome h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     color: var(--beige);
@@ -29,7 +29,7 @@ h1 {
 }
 
 
-h1, p, a {
+#welcome h1, p, a {
     animation: fadeIn ease 6s;
     -webkit-animation: fadeIn ease 6s;
 }

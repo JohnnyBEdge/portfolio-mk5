@@ -1,25 +1,17 @@
 import React from 'react';
-import '../comp-style/welcome.css';
 import Nav from './Nav';
+import '../comp-style/welcome.css';
 
-
-
-const style = {
-    color: "red"
-}
 
 const Welcome = () =>{
     return (
-        <div>
-            
             <div id="welcome" className="section">
             <Nav />
-                <div id="sum_container" className="animate__animated animate__fadeIn animate__slow">
+                <div id="sum_container">
                     <h1>Full-Stack Javascript Developer</h1>
                     <p id="summary">My name is John and I am a web developer based out of Salt Lake City, Utah. </p>
                 </div>
             </div>
-        </div>
     );
 
 };
