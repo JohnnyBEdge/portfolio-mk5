@@ -3,6 +3,7 @@ import '../comp-style/projects.css';
 import LearnCenter from '../comp-style/imgs/learn-center.png';
 import Wedding from '../comp-style/imgs/wedding.png';
 import data from '../data/project-data.json';
+import GearCloset from '../comp-style/imgs/gear-closet.png'
 
 const Projects = () => {
     let index = 0;
@@ -85,7 +86,7 @@ const Projects = () => {
                     </div>
                     <div className="proj proj-img">
                         <div className="img-frame">
-                            <img src={LearnCenter} alt="Project screenshot"/>
+                            <img src={GearCloset} alt="Project screenshot"/>
                         </div>
                     </div>
                 </div>
